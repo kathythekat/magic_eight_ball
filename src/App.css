@@ -1,13 +1,15 @@
 .Eightball-container {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: 50% auto;
+  flex-direction: column;
 }
 .Eightball {
   border-radius: 50%;
   width: 200px;
-  height:200px;
+  height: 200px;
+  margin-bottom: 20px;
 }
 
 .Eightball:focus {
